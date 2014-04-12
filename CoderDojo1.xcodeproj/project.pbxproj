@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0DE56F1646FAEF009CFF6B /* TweetWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0DE56E1646FAEB009CFF6B /* TweetWebViewController.m */; };
+		1C10F1BA160A481200348928 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10F1B8160A481200348928 /* about.png */; };
+		1C10F1BB160A481200348928 /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10F1B9160A481200348928 /* about@2x.png */; };
+		1C10F1C2160A483B00348928 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10F1BE160A483B00348928 /* Icon-Small.png */; };
+		1C10F1C3160A483B00348928 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10F1BF160A483B00348928 /* Icon-Small@2x.png */; };
+		1C10F1C8160A486000348928 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10F1C5160A486000348928 /* logo.png */; };
+		1C10F1C9160A486000348928 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10F1C6160A486000348928 /* logo@2x.png */; };
+		1C10F1CC160A4DA200348928 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10F1CA160A4DA200348928 /* icon.png */; };
+		1C10F1CD160A4DA200348928 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10F1CB160A4DA200348928 /* icon@2x.png */; };
+		1C1184A615A66D640012A72D /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1184A515A66D640012A72D /* TweetViewController.m */; };
+		1C14ADFF18E8C4890091B0DA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C14ADFE18E8C4890091B0DA /* Social.framework */; };
+		1C1E319315ACE119007291FA /* AboutScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E319215ACE119007291FA /* AboutScrollViewController.m */; };
+		1C1E319615AD001C007291FA /* dojo_class_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C1E319515AD001B007291FA /* dojo_class_banner.jpg */; };
+		1C1E319915AD046B007291FA /* AboutPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E319815AD046B007291FA /* AboutPhotoViewController.m */; };
+		1C1E31A215AE505C007291FA /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1E31A115AE505B007291FA /* Accounts.framework */; };
+		1C2BE7C515ABD23500017FD0 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2BE7C415ABD23400017FD0 /* FlickrPhoto.m */; };
+		1C3CD39418F8B98C00DACC5F /* dojologo7portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C3CD39318F8B98C00DACC5F /* dojologo7portrait.png */; };
+		1C4014DE15995A8200D1A9AE /* dojologo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C4014DD15995A8100D1A9AE /* dojologo.png */; };
+		1C431CB21597E8B000683E08 /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C431CB11597E8B000683E08 /* NewsDetailViewController.m */; };
+		1C50439A15A36E6900110B12 /* ResourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C50439915A36E6900110B12 /* ResourcesViewController.m */; };
+		1C50439C15A3767100110B12 /* compose.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C50439B15A3767100110B12 /* compose.png */; };
+		1C52570F16486ACB003CB3E4 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C52570E16486ACA003CB3E4 /* LoadingViewController.m */; };
+		1C6EA9E0159A34720096B3D9 /* dojologoLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EA9DE159A34720096B3D9 /* dojologoLandscape.png */; };
+		1C6EA9E1159A34720096B3D9 /* dojologoPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EA9DF159A34720096B3D9 /* dojologoPortrait.png */; };
+		1C6EA9E3159A9AA70096B3D9 /* resources.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EA9E2159A9AA60096B3D9 /* resources.png */; };
+		1C6EA9E9159AA2450096B3D9 /* LocatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EA9E8159AA2450096B3D9 /* LocatorViewController.m */; };
+		1C77411C15963019002F98AE /* NewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C77411B15963019002F98AE /* NewsItem.m */; };
+		1C77412015963FB9002F98AE /* NewsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C77411F15963FB9002F98AE /* NewsParser.m */; };
+		1C8691511592B4E8004B3750 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8691501592B4E8004B3750 /* UIKit.framework */; };
+		1C8691531592B4E8004B3750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8691521592B4E8004B3750 /* Foundation.framework */; };
+		1C8691551592B4E8004B3750 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8691541592B4E8004B3750 /* CoreGraphics.framework */; };
+		1C86915B1592B4E8004B3750 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C8691591592B4E8004B3750 /* InfoPlist.strings */; };
+		1C86915D1592B4E8004B3750 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C86915C1592B4E8004B3750 /* main.m */; };
+		1C8691611592B4E8004B3750 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8691601592B4E8004B3750 /* AppDelegate.m */; };
+		1C86917D1592B52F004B3750 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C86917C1592B52F004B3750 /* TwitterViewController.m */; };
+		1C8691801592BB39004B3750 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C86917E1592BB39004B3750 /* twitter.png */; };
+		1C8691811592BB39004B3750 /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C86917F1592BB39004B3750 /* twitter@2x.png */; };
+		1C8691831592BDCF004B3750 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8691821592BDCF004B3750 /* Twitter.framework */; };
+		1C8691891592D52E004B3750 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8691881592D52E004B3750 /* NewsViewController.m */; };
+		1C8691901592D814004B3750 /* locate.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C86918C1592D813004B3750 /* locate.png */; };
+		1C8691911592D814004B3750 /* locate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C86918D1592D813004B3750 /* locate@2x.png */; };
+		1C8691941592D826004B3750 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C8691921592D826004B3750 /* news.png */; };
+		1C8691951592D826004B3750 /* news@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C8691931592D826004B3750 /* news@2x.png */; };
+		1CF00F2415A7800D00CCA0EB /* reply.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF00F2215A7800D00CCA0EB /* reply.png */; };
+		1CF00F2515A7800D00CCA0EB /* retweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF00F2315A7800D00CCA0EB /* retweet.png */; };
+		1CFCE50C160A57FD000AD006 /* compose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCE507160A57FD000AD006 /* compose@2x.png */; };
+		1CFCE50D160A57FD000AD006 /* intro_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCE508160A57FD000AD006 /* intro_logo.png */; };
+		1CFCE50E160A57FD000AD006 /* reply@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCE509160A57FD000AD006 /* reply@2x.png */; };
+		1CFCE50F160A57FD000AD006 /* resources@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCE50A160A57FD000AD006 /* resources@2x.png */; };
+		1CFCE510160A57FD000AD006 /* retweet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCE50B160A57FD000AD006 /* retweet@2x.png */; };
+		1CFCE512160A58D4000AD006 /* logo_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCE511160A58D4000AD006 /* logo_lg.png */; };
+		CE3808A4164983B2002745CE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3808A3164983B2002745CE /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C0DE56D1646FAEA009CFF6B /* TweetWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetWebViewController.h; sourceTree = "<group>"; };
+		1C0DE56E1646FAEB009CFF6B /* TweetWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetWebViewController.m; sourceTree = "<group>"; };
+		1C10F1B8160A481200348928 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		1C10F1B9160A481200348928 /* about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@2x.png"; sourceTree = "<group>"; };
+		1C10F1BE160A483B00348928 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		1C10F1BF160A483B00348928 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		1C10F1C4160A486000348928 /* logo_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_lg.png; sourceTree = "<group>"; };
+		1C10F1C5160A486000348928 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		1C10F1C6160A486000348928 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		1C10F1CA160A4DA200348928 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1C10F1CB160A4DA200348928 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		1C1184A415A66D640012A72D /* TweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
+		1C1184A515A66D640012A72D /* TweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
+		1C14ADFE18E8C4890091B0DA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		1C1E319115ACE119007291FA /* AboutScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutScrollViewController.h; sourceTree = "<group>"; };
+		1C1E319215ACE119007291FA /* AboutScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutScrollViewController.m; sourceTree = "<group>"; };
+		1C1E319515AD001B007291FA /* dojo_class_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dojo_class_banner.jpg; sourceTree = "<group>"; };
+		1C1E319715AD046A007291FA /* AboutPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutPhotoViewController.h; sourceTree = "<group>"; };
+		1C1E319815AD046B007291FA /* AboutPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutPhotoViewController.m; sourceTree = "<group>"; };
+		1C1E31A115AE505B007291FA /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		1C2BE7C315ABD23400017FD0 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		1C2BE7C415ABD23400017FD0 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+		1C3CD39318F8B98C00DACC5F /* dojologo7portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dojologo7portrait.png; sourceTree = SOURCE_ROOT; };
+		1C4014DD15995A8100D1A9AE /* dojologo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dojologo.png; sourceTree = "<group>"; };
+		1C431CB01597E8AF00683E08 /* NewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailViewController.h; sourceTree = "<group>"; };
+		1C431CB11597E8B000683E08 /* NewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailViewController.m; sourceTree = "<group>"; };
+		1C50439815A36E6900110B12 /* ResourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcesViewController.h; sourceTree = "<group>"; };
+		1C50439915A36E6900110B12 /* ResourcesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourcesViewController.m; sourceTree = "<group>"; };
+		1C50439B15A3767100110B12 /* compose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compose.png; sourceTree = "<group>"; };
+		1C52570D16486ACA003CB3E4 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
+		1C52570E16486ACA003CB3E4 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		1C6EA9DE159A34720096B3D9 /* dojologoLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dojologoLandscape.png; sourceTree = "<group>"; };
+		1C6EA9DF159A34720096B3D9 /* dojologoPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dojologoPortrait.png; sourceTree = "<group>"; };
+		1C6EA9E2159A9AA60096B3D9 /* resources.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resources.png; sourceTree = "<group>"; };
+		1C6EA9E7159AA2450096B3D9 /* LocatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocatorViewController.h; sourceTree = "<group>"; };
+		1C6EA9E8159AA2450096B3D9 /* LocatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocatorViewController.m; sourceTree = "<group>"; };
+		1C77411A15963019002F98AE /* NewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsItem.h; sourceTree = "<group>"; };
+		1C77411B15963019002F98AE /* NewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsItem.m; sourceTree = "<group>"; };
+		1C77411E15963FB9002F98AE /* NewsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsParser.h; sourceTree = "<group>"; };
+		1C77411F15963FB9002F98AE /* NewsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsParser.m; sourceTree = "<group>"; };
+		1C86914C1592B4E8004B3750 /* CoderDojo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoderDojo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C8691501592B4E8004B3750 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C8691521592B4E8004B3750 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C8691541592B4E8004B3750 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C8691581592B4E8004B3750 /* CoderDojo1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoderDojo1-Info.plist"; sourceTree = "<group>"; };
+		1C86915A1592B4E8004B3750 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C86915C1592B4E8004B3750 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C86915E1592B4E8004B3750 /* CoderDojo1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoderDojo1-Prefix.pch"; sourceTree = "<group>"; };
+		1C86915F1592B4E8004B3750 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C8691601592B4E8004B3750 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C86917B1592B52F004B3750 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		1C86917C1592B52F004B3750 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
+		1C86917E1592BB39004B3750 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		1C86917F1592BB39004B3750 /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
+		1C8691821592BDCF004B3750 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		1C8691871592D52D004B3750 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		1C8691881592D52E004B3750 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		1C86918C1592D813004B3750 /* locate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locate.png; sourceTree = "<group>"; };
+		1C86918D1592D813004B3750 /* locate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "locate@2x.png"; sourceTree = "<group>"; };
+		1C8691921592D826004B3750 /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		1C8691931592D826004B3750 /* news@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "news@2x.png"; sourceTree = "<group>"; };
+		1CF00F2215A7800D00CCA0EB /* reply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reply.png; sourceTree = "<group>"; };
+		1CF00F2315A7800D00CCA0EB /* retweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retweet.png; sourceTree = "<group>"; };
+		1CFCE507160A57FD000AD006 /* compose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose@2x.png"; sourceTree = "<group>"; };
+		1CFCE508160A57FD000AD006 /* intro_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro_logo.png; sourceTree = "<group>"; };
+		1CFCE509160A57FD000AD006 /* reply@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reply@2x.png"; sourceTree = "<group>"; };
+		1CFCE50A160A57FD000AD006 /* resources@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resources@2x.png"; sourceTree = "<group>"; };
+		1CFCE50B160A57FD000AD006 /* retweet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "retweet@2x.png"; sourceTree = "<group>"; };
+		1CFCE511160A58D4000AD006 /* logo_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_lg.png; sourceTree = "<group>"; };
+		CE3808A3164983B2002745CE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C8691491592B4E8004B3750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C14ADFF18E8C4890091B0DA /* Social.framework in Frameworks */,
+				1C1E31A215AE505C007291FA /* Accounts.framework in Frameworks */,
+				1C8691831592BDCF004B3750 /* Twitter.framework in Frameworks */,
+				1C8691511592B4E8004B3750 /* UIKit.framework in Frameworks */,
+				1C8691531592B4E8004B3750 /* Foundation.framework in Frameworks */,
+				1C8691551592B4E8004B3750 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C8691411592B4E7004B3750 = {
+			isa = PBXGroup;
+			children = (
+				1C1E31A115AE505B007291FA /* Accounts.framework */,
+				1C8691561592B4E8004B3750 /* CoderDojo1 */,
+				1C86914F1592B4E8004B3750 /* Frameworks */,
+				1C86914D1592B4E8004B3750 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C86914D1592B4E8004B3750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C86914C1592B4E8004B3750 /* CoderDojo1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C86914F1592B4E8004B3750 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C14ADFE18E8C4890091B0DA /* Social.framework */,
+				1C8691821592BDCF004B3750 /* Twitter.framework */,
+				1C8691501592B4E8004B3750 /* UIKit.framework */,
+				1C8691521592B4E8004B3750 /* Foundation.framework */,
+				1C8691541592B4E8004B3750 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C8691561592B4E8004B3750 /* CoderDojo1 */ = {
+			isa = PBXGroup;
+			children = (
+				1C3CD39318F8B98C00DACC5F /* dojologo7portrait.png */,
+				CE3808AB1649A01B002745CE /* imagesForLaunch */,
+				1CFCE507160A57FD000AD006 /* compose@2x.png */,
+				1C8691571592B4E8004B3750 /* Supporting Files */,
+				1CFCE508160A57FD000AD006 /* intro_logo.png */,
+				1CFCE509160A57FD000AD006 /* reply@2x.png */,
+				1CFCE50A160A57FD000AD006 /* resources@2x.png */,
+				1CFCE50B160A57FD000AD006 /* retweet@2x.png */,
+				1C10F1B8160A481200348928 /* about.png */,
+				1C10F1B9160A481200348928 /* about@2x.png */,
+				1C1E319515AD001B007291FA /* dojo_class_banner.jpg */,
+				1CF00F2215A7800D00CCA0EB /* reply.png */,
+				1CFCE511160A58D4000AD006 /* logo_lg.png */,
+				1CF00F2315A7800D00CCA0EB /* retweet.png */,
+				1C50439B15A3767100110B12 /* compose.png */,
+				1C6EA9E2159A9AA60096B3D9 /* resources.png */,
+				1C6EA9DE159A34720096B3D9 /* dojologoLandscape.png */,
+				1C6EA9DF159A34720096B3D9 /* dojologoPortrait.png */,
+				1C4014DD15995A8100D1A9AE /* dojologo.png */,
+				1C8691921592D826004B3750 /* news.png */,
+				1C8691931592D826004B3750 /* news@2x.png */,
+				1C86918C1592D813004B3750 /* locate.png */,
+				1C86918D1592D813004B3750 /* locate@2x.png */,
+				1C86917E1592BB39004B3750 /* twitter.png */,
+				1C86917F1592BB39004B3750 /* twitter@2x.png */,
+				1C86915F1592B4E8004B3750 /* AppDelegate.h */,
+				1C8691601592B4E8004B3750 /* AppDelegate.m */,
+				1C1E319115ACE119007291FA /* AboutScrollViewController.h */,
+				1C1E319215ACE119007291FA /* AboutScrollViewController.m */,
+				1C1E319715AD046A007291FA /* AboutPhotoViewController.h */,
+				1C1E319815AD046B007291FA /* AboutPhotoViewController.m */,
+				1C2BE7C315ABD23400017FD0 /* FlickrPhoto.h */,
+				1C2BE7C415ABD23400017FD0 /* FlickrPhoto.m */,
+				1C52570D16486ACA003CB3E4 /* LoadingViewController.h */,
+				1C52570E16486ACA003CB3E4 /* LoadingViewController.m */,
+				1C6EA9E7159AA2450096B3D9 /* LocatorViewController.h */,
+				1C6EA9E8159AA2450096B3D9 /* LocatorViewController.m */,
+				1C8691871592D52D004B3750 /* NewsViewController.h */,
+				1C8691881592D52E004B3750 /* NewsViewController.m */,
+				1C77411A15963019002F98AE /* NewsItem.h */,
+				1C77411B15963019002F98AE /* NewsItem.m */,
+				1C77411E15963FB9002F98AE /* NewsParser.h */,
+				1C77411F15963FB9002F98AE /* NewsParser.m */,
+				1C431CB01597E8AF00683E08 /* NewsDetailViewController.h */,
+				1C431CB11597E8B000683E08 /* NewsDetailViewController.m */,
+				1C50439815A36E6900110B12 /* ResourcesViewController.h */,
+				1C50439915A36E6900110B12 /* ResourcesViewController.m */,
+				1C86917B1592B52F004B3750 /* TwitterViewController.h */,
+				1C86917C1592B52F004B3750 /* TwitterViewController.m */,
+				1C1184A415A66D640012A72D /* TweetViewController.h */,
+				1C1184A515A66D640012A72D /* TweetViewController.m */,
+				1C0DE56D1646FAEA009CFF6B /* TweetWebViewController.h */,
+				1C0DE56E1646FAEB009CFF6B /* TweetWebViewController.m */,
+			);
+			path = CoderDojo1;
+			sourceTree = "<group>";
+		};
+		1C8691571592B4E8004B3750 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C8691581592B4E8004B3750 /* CoderDojo1-Info.plist */,
+				1C8691591592B4E8004B3750 /* InfoPlist.strings */,
+				1C86915C1592B4E8004B3750 /* main.m */,
+				1C86915E1592B4E8004B3750 /* CoderDojo1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE3808AB1649A01B002745CE /* imagesForLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				1C10F1C5160A486000348928 /* logo.png */,
+				1C10F1BE160A483B00348928 /* Icon-Small.png */,
+				1C10F1C6160A486000348928 /* logo@2x.png */,
+				1C10F1CB160A4DA200348928 /* icon@2x.png */,
+				1C10F1BF160A483B00348928 /* Icon-Small@2x.png */,
+				1C10F1C4160A486000348928 /* logo_lg.png */,
+				1C10F1CA160A4DA200348928 /* icon.png */,
+				CE3808A3164983B2002745CE /* Default-568h@2x.png */,
+			);
+			name = imagesForLaunch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C86914B1592B4E8004B3750 /* CoderDojo1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C8691781592B4E8004B3750 /* Build configuration list for PBXNativeTarget "CoderDojo1" */;
+			buildPhases = (
+				1C8691481592B4E8004B3750 /* Sources */,
+				1C8691491592B4E8004B3750 /* Frameworks */,
+				1C86914A1592B4E8004B3750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoderDojo1;
+			productName = CoderDojo1;
+			productReference = 1C86914C1592B4E8004B3750 /* CoderDojo1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C8691431592B4E7004B3750 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1C8691461592B4E7004B3750 /* Build configuration list for PBXProject "CoderDojo1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C8691411592B4E7004B3750;
+			productRefGroup = 1C86914D1592B4E8004B3750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C86914B1592B4E8004B3750 /* CoderDojo1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C86914A1592B4E8004B3750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C86915B1592B4E8004B3750 /* InfoPlist.strings in Resources */,
+				1C3CD39418F8B98C00DACC5F /* dojologo7portrait.png in Resources */,
+				1C8691801592BB39004B3750 /* twitter.png in Resources */,
+				1C8691811592BB39004B3750 /* twitter@2x.png in Resources */,
+				1C8691901592D814004B3750 /* locate.png in Resources */,
+				1C8691911592D814004B3750 /* locate@2x.png in Resources */,
+				1C8691941592D826004B3750 /* news.png in Resources */,
+				1C8691951592D826004B3750 /* news@2x.png in Resources */,
+				1C4014DE15995A8200D1A9AE /* dojologo.png in Resources */,
+				1C6EA9E0159A34720096B3D9 /* dojologoLandscape.png in Resources */,
+				1C6EA9E1159A34720096B3D9 /* dojologoPortrait.png in Resources */,
+				1C6EA9E3159A9AA70096B3D9 /* resources.png in Resources */,
+				1C50439C15A3767100110B12 /* compose.png in Resources */,
+				1CF00F2415A7800D00CCA0EB /* reply.png in Resources */,
+				1CF00F2515A7800D00CCA0EB /* retweet.png in Resources */,
+				1C1E319615AD001C007291FA /* dojo_class_banner.jpg in Resources */,
+				1C10F1BA160A481200348928 /* about.png in Resources */,
+				1C10F1BB160A481200348928 /* about@2x.png in Resources */,
+				1C10F1C2160A483B00348928 /* Icon-Small.png in Resources */,
+				1C10F1C3160A483B00348928 /* Icon-Small@2x.png in Resources */,
+				1C10F1C8160A486000348928 /* logo.png in Resources */,
+				1C10F1C9160A486000348928 /* logo@2x.png in Resources */,
+				1C10F1CC160A4DA200348928 /* icon.png in Resources */,
+				1C10F1CD160A4DA200348928 /* icon@2x.png in Resources */,
+				1CFCE50C160A57FD000AD006 /* compose@2x.png in Resources */,
+				1CFCE50D160A57FD000AD006 /* intro_logo.png in Resources */,
+				1CFCE50E160A57FD000AD006 /* reply@2x.png in Resources */,
+				1CFCE50F160A57FD000AD006 /* resources@2x.png in Resources */,
+				1CFCE510160A57FD000AD006 /* retweet@2x.png in Resources */,
+				1CFCE512160A58D4000AD006 /* logo_lg.png in Resources */,
+				CE3808A4164983B2002745CE /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C8691481592B4E8004B3750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C86915D1592B4E8004B3750 /* main.m in Sources */,
+				1C8691611592B4E8004B3750 /* AppDelegate.m in Sources */,
+				1C86917D1592B52F004B3750 /* TwitterViewController.m in Sources */,
+				1C8691891592D52E004B3750 /* NewsViewController.m in Sources */,
+				1C77411C15963019002F98AE /* NewsItem.m in Sources */,
+				1C77412015963FB9002F98AE /* NewsParser.m in Sources */,
+				1C431CB21597E8B000683E08 /* NewsDetailViewController.m in Sources */,
+				1C6EA9E9159AA2450096B3D9 /* LocatorViewController.m in Sources */,
+				1C50439A15A36E6900110B12 /* ResourcesViewController.m in Sources */,
+				1C1184A615A66D640012A72D /* TweetViewController.m in Sources */,
+				1C2BE7C515ABD23500017FD0 /* FlickrPhoto.m in Sources */,
+				1C1E319315ACE119007291FA /* AboutScrollViewController.m in Sources */,
+				1C1E319915AD046B007291FA /* AboutPhotoViewController.m in Sources */,
+				1C0DE56F1646FAEF009CFF6B /* TweetWebViewController.m in Sources */,
+				1C52570F16486ACB003CB3E4 /* LoadingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C8691591592B4E8004B3750 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C86915A1592B4E8004B3750 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C8691761592B4E8004B3750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: shara Karasic (ASUE476B49)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: shara Karasic (ASUE476B49)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "D9C66B8B-8B72-4893-8590-80F5CB3A373A";
+				"PROVISIONING_PROFILE[sdk=*]" = "D9C66B8B-8B72-4893-8590-80F5CB3A373A";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C8691771592B4E8004B3750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C8691791592B4E8004B3750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoderDojo1/CoderDojo1-Prefix.pch";
+				INFOPLIST_FILE = "CoderDojo1/CoderDojo1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C86917A1592B4E8004B3750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoderDojo1/CoderDojo1-Prefix.pch";
+				INFOPLIST_FILE = "CoderDojo1/CoderDojo1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C8691461592B4E7004B3750 /* Build configuration list for PBXProject "CoderDojo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C8691761592B4E8004B3750 /* Debug */,
+				1C8691771592B4E8004B3750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C8691781592B4E8004B3750 /* Build configuration list for PBXNativeTarget "CoderDojo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C8691791592B4E8004B3750 /* Debug */,
+				1C86917A1592B4E8004B3750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C8691431592B4E7004B3750 /* Project object */;
+}
