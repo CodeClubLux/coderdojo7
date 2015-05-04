@@ -66,8 +66,8 @@ NSString *const kFlickrAPIKey = @"a5891c385ca0532ee7b6584c722a533a";
 {
     [[UINavigationBar appearance] setBarTintColor:[UIColor blackColor]];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
-    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"dojologo7portrait.png"] forBarMetrics:UIBarMetricsDefault];
-    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"dojologo7landscape.png"] forBarMetrics:UIBarMetricsLandscapePhone];
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"dojologoportrait.png"] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"dojologolandscape.png"] forBarMetrics:UIBarMetricsLandscapePhone];
 
 }
 
