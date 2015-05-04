@@ -129,10 +129,10 @@ NSString *const kFlickrAPIKey = @"a5891c385ca0532ee7b6584c722a533a";
             NSString *fid = [photo objectForKey:@"id"];
             NSString *rtitle = [photo objectForKey:@"title"];
             NSString *title = (rtitle.length > 0 ? rtitle : @"untitled");
-            NSString *photoURLString = [NSString stringWithFormat:@"http://farm%@.static.flickr.com/%@/%@_%@_q.jpg", [photo objectForKey:@"farm"], [photo objectForKey:@"server"], [photo objectForKey:@"id"], [photo objectForKey:@"secret"]];            
+            NSString *photoURLString = [NSString stringWithFormat:@"https://farm%@.static.flickr.com/%@/%@_%@_q.jpg", [photo objectForKey:@"farm"], [photo objectForKey:@"server"], [photo objectForKey:@"id"], [photo objectForKey:@"secret"]];
             NSData *thumbData = [NSData dataWithContentsOfURL:[NSURL URLWithString:photoURLString]]; 
             UIImage *thumb = [[UIImage alloc] initWithData:thumbData];  
-            photoURLString = [NSString stringWithFormat:@"http://farm%@.static.flickr.com/%@/%@_%@_n.jpg", [photo objectForKey:@"farm"], [photo objectForKey:@"server"], [photo objectForKey:@"id"], [photo objectForKey:@"secret"]];
+            photoURLString = [NSString stringWithFormat:@"https://farm%@.static.flickr.com/%@/%@_%@_n.jpg", [photo objectForKey:@"farm"], [photo objectForKey:@"server"], [photo objectForKey:@"id"], [photo objectForKey:@"secret"]];
             FlickrPhoto *flickrPhoto = [[FlickrPhoto alloc] initWithTitle:title thumbNail:thumb largeURL:[NSURL URLWithString:photoURLString]];
             
             [flickrPhotos setObject:flickrPhoto forKey:fid];
@@ -162,7 +162,7 @@ NSString *const kFlickrAPIKey = @"a5891c385ca0532ee7b6584c722a533a";
 
 - (void)getFlickrPhotos
 {
-    NSString *flickrUrl = [NSString stringWithFormat:@"http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%@&tags=coderdojo&per_page=10&format=json&nojsoncallback=1", kFlickrAPIKey];
+    NSString *flickrUrl = [NSString stringWithFormat:@"https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%@&tags=coderdojo&per_page=10&format=json&nojsoncallback=1", kFlickrAPIKey];
     // NSLog(@"url: %@", flickrUrl);
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:flickrUrl]];
     flickrConnection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
