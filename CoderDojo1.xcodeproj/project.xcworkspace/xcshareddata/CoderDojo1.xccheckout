@@ -10,31 +10,31 @@
 	<string>CoderDojo1</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8EC33780-3E80-489B-B9AE-901A5DCDEDD0</key>
-		<string>https://github.com/sharakarasic/CoderDojoAppFinal11_12</string>
+		<key>8437063BA966118C78CB6AD721AB74E9CCC07D43</key>
+		<string>github.com:CodeClubLux/coderdojo7.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CoderDojoFinal/CoderDojo1.xcodeproj/project.xcworkspace</string>
+	<string>CoderDojo1.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8EC33780-3E80-489B-B9AE-901A5DCDEDD0</key>
-		<string>../../..</string>
+		<key>8437063BA966118C78CB6AD721AB74E9CCC07D43</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/sharakarasic/CoderDojoAppFinal11_12</string>
+	<string>github.com:CodeClubLux/coderdojo7.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8EC33780-3E80-489B-B9AE-901A5DCDEDD0</string>
+	<string>8437063BA966118C78CB6AD721AB74E9CCC07D43</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8EC33780-3E80-489B-B9AE-901A5DCDEDD0</string>
+			<string>8437063BA966118C78CB6AD721AB74E9CCC07D43</string>
 			<key>IDESourceControlWCCName</key>
-			<string>CoderDojoAppFinal11_12</string>
+			<string>coderdojo7</string>
 		</dict>
 	</array>
 </dict>
